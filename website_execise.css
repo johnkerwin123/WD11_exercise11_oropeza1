@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+section{
+  font-family:'Poppins', sans-serif; 
+  background-image: url(snow1.jpg);
+}
+ .card-info{
+  background-color: aqua;
+}
+.card-body{
+  border-radius: 50px;
+
+}
