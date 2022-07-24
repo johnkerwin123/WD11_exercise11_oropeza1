@@ -1,0 +1,35 @@
+
+.section{
+  font-family:'Poppins', sans-serif; 
+  background-image: url(snow.avif);
+}
+ .card-info{
+  background-color: aqua;
+}
+.card-body{
+  background-color: rgb(244, 177, 91);
+}
+.container{
+  background-image: url(stonewall.jpg);
+}
+footer{
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(244, 177, 91);
+}
+
+.social-icons a{
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+.social-icons{
+  display: flex;
+}

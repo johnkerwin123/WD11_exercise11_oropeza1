@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>website of dota2</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="exercise11.css">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js"
+  crossorigin="anonymous"></script>
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 
@@ -14,10 +18,10 @@
   <!-- nav start-->
   <nav class="navbar fixed-top bg-warning shadow-sm">
     <div class="container-lg">
-      <a class="navbar-brand fs-5 fw-bold" href="#">Dota2.com</a>     
+      <a class="navbar-brand fs-5 fw-bold" href="#">Dota2.com</a>
       <div class="dropdown">
         <button class="btn btn-dark px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-          aria-expanded="false">Search
+          aria-expanded="false" class="bi bi-search">Search
         </button>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
           <li><a class="dropdown-item" href="#about">About</a></li>
@@ -36,214 +40,244 @@
   <!-- section front page start-->
   <section class="front-page" id="dota2">
     <div class="container-fluid-lg min-vh-100 align-items-center align-content-center">
-          <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner row-12">
-                <div class="carousel-item active">
-                    <img src="dotawall3.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="dotawall2.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="dotawall4.jpg" class="d-block w-100">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide"
-              data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                  <span class="visually-hidden">Previous</span>
+      <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner row-12">
+          <div class="carousel-item active">
+            <img src="dotawall3.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="dotawall2.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="dotawall4.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="dotawall1.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="ursa.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <!-- previous -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- next -->
+      </div>
+      <div class="accordion justify-content-center align-items-center">
+        <div class="accordion-item">
+          <h2 class="accordion-header fs-5 align-items-center">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
+              <i class="fa-solid fa-1"></i>About Dota 2
             </button>
-            <!-- previous -->
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide"
-              data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                  <span class="visually-hidden">Next</span>
-            </button>
-            <!-- next -->
-    </div>
-    <div class="accordion justify-content-center align-items-center">
-      <div class="accordion-item">
-         <h2 class="accordion-header fs-5 align-items-center">
-           <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
-            <i class="fa-solid fa-1"></i>About Dota 2
-           </button>
-         </h2>
-         <div id="item-1" class="accordion-collapse collapse show">
-           <div class="accordion-body">
-              <p>A month prior to its official launch, Dota 2 was already the most played game on Steam with a concurrent player count of nearly 330,000, 
+          </h2>
+          <div id="item-1" class="accordion-collapse collapse show bg-warning">
+            <div class="accordion-body">
+              <p>A month prior to its official launch, Dota 2 was already the most played game on Steam with a
+                concurrent player count of nearly 330,000,
                 which outweighed the number of players for the rest of platform's top ten most-played games combined.
                 It remained as the most played game by concurrent players on the platform for four years,
-                having a peak of over one million and never dropping below first place for any extended period of time until being surpassed by PlayerUnknown's Battlegrounds in 2017.
-                Viewership and followings of professional Dota 2 leagues and tournaments are also popular, with peak viewership numbers of some events reaching upwards in the millions.
-                Some Asian schools and universities, such as the Asia Pacific University of Technology & Innovation in Malaysia, have held courses teaching students the fundamentals and core skills to use for the game.
-                Dota 2 has also been a part of multi-sport events in Asia, such as the Asian Indoor and Martial Arts Games and Southeast Asian Games</p>
-           </div>
-         </div>
-       </div>
-       <div class="accordion-item">
-        <h2 class="accordion-header fs-5">
-          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
-           <i class="fa-solid fa-1"></i>Map of Dota2
-          </button>
-        </h2>
-        <div id="item-1" class="accordion-collapse collapse show">
-          <div class="accordion-body px-4 align-items-center">
-             <img src="map1.jpg" alt="">
-             <img src="map3.jpg" alt="">
-             <img src="map4.jpg" alt="">
-             <img src="map5.jpg" alt="">
+                having a peak of over one million and never dropping below first place for any extended period of time
+                until being surpassed by PlayerUnknown's Battlegrounds in 2017.
+                Viewership and followings of professional Dota 2 leagues and tournaments are also popular, with peak
+                viewership numbers of some events reaching upwards in the millions.
+                Some Asian schools and universities, such as the Asia Pacific University of Technology & Innovation in
+                Malaysia, have held courses teaching students the fundamentals and core skills to use for the game.
+                Dota 2 has also been a part of multi-sport events in Asia, such as the Asian Indoor and Martial Arts
+                Games and Southeast Asian Games</p>
+            </div>
           </div>
         </div>
-     </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header fs-5 mt-5">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
+              <i class="fa-solid fa-1 fs-5 fw-bold"></i>Map of Dota2
+            </button>
+          </h2>
+          <div id="item-1" class="accordion-collapse collapse show">
+            <div class="accordion-body px-5 align-items-center bg-warning">
+              <img src="map1.jpg" alt="">
+              <img src="map3.jpg" alt="">
+              <img src="map4.jpg" alt="">
+              <img src="map5.jpg" alt="">
+            </div>
+          </div>
+        </div>
   </section>
-  
-    <h5 class="mt-5 text-center"> Dota 2 Heroes</h5>
-    <div class="container-lg">
-      <div class="row justify-content-center align-items-center px-3 mt-5">
-        <div class="col-md-4 px-3 mb-5">
-          <div class="card" style="width: 18rem;">
-              <img src="dota3.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">SLARK</h5>
-              <p class="card-text">Slark, the Nightcrawler. Little known to the inhabitants of the dry world, Dark Reef is a sunken prison where the worst of the sea-breed are sent for crimes against their fellows.</p>
-              <a href="#slark" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-4 px-3 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img src="dota4.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">ZUES ,the God of Thunder</h5>
-              <p class="card-text">Zeus performs a Heavenly Jump shocking the closest visible nearby enemy (prioritizing heroes), dealing damage, reducing their movement, attack speed.</p>
-              <a href="#zues" class="btn btn-primary">Read More</a>
-            </div>
+  <h5 class="mt-5 text-center"> Dota 2 Heroes</h5>
+  <div class="container-lg">
+    <div class="row justify-content-center align-items-center px-3 mt-5">
+      <div class="col-md-4 px-3 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="dota3.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">SLARK</h5>
+            <p class="card-text">Slark, the Nightcrawler. Little known to the inhabitants of the dry world, Dark Reef is
+              a sunken prison where the worst of the sea-breed are sent for crimes against their fellows.</p>
+            <a href="#slark" class="btn btn-primary">Read More</a>
           </div>
         </div>
-        <div class="col-md-4 px-3 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img src="queen of pain.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">QUENN OF PAIN</h5>
-              <p class="card-text">Queen of Pain relishes in the pain inflicted, healing every time the enemy takes damage. Creeps heal for half the damage only.Cast Range: 450/500/550/600</p>
-              <a href="#queen of pain" class="btn btn-primary">Read More</a>
-            </div>
+      </div>
+
+      <div class="col-md-4 px-3 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="dota4.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">ZUES ,the God of Thunder</h5>
+            <p class="card-text">Zeus performs a Heavenly Jump shocking the closest visible nearby enemy (prioritizing
+              heroes), dealing damage, reducing their movement, attack speed.</p>
+            <a href="#zues" class="btn btn-primary">Read More</a>
           </div>
         </div>
-        <div class="col-md-4 px-3 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img src="pudge.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">PUDGE</h5>
-              <p class="card-text">Pudge launches a bloody hook toward a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge, killing it if it's a non-ancient creep.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+      </div>
+      <div class="col-md-4 px-3 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="queen of pain.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">QUENN OF PAIN</h5>
+            <p class="card-text">Queen of Pain relishes in the pain inflicted, healing every time the enemy takes
+              damage. Creeps heal for half the damage only.Cast Range: 450/500/550/600</p>
+            <a href="#queen of pain" class="btn btn-primary">Read More</a>
           </div>
         </div>
-        <div class="col-md-4 px-3 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img src="juggernaut.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">JUGGERNAUT</h5>
-              <p class="card-text">Juggernaut leaps towards the target enemy units, and then slashes the target and other nearby enemy units at an increased attack rate. Juggernaut is invulnerable</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+      </div>
+      <div class="col-md-4 px-3 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="pudge.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">PUDGE</h5>
+            <p class="card-text">Pudge launches a bloody hook toward a unit or location. The hook will snag the first
+              unit it encounters, dragging the unit back to Pudge, killing it if it's a non-ancient creep.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
-        <div class="col-md-4 px-3 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img src="ursa.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">URSA</h5>
-              <p class="card-text">Ursa. Deals more damage with every hit to the same foe. Ulfsaar the Warrior is the fiercest member of an ursine tribe, protective of his land and his people.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+      </div>
+      <div class="col-md-4 px-3 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="juggernaut.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">JUGGERNAUT</h5>
+            <p class="card-text">Juggernaut leaps towards the target enemy units, and then slashes the target and other
+              nearby enemy units at an increased attack rate. Juggernaut is invulnerable</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 px-3 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="ursa.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">URSA</h5>
+            <p class="card-text">Ursa. Deals more damage with every hit to the same foe. Ulfsaar the Warrior is the
+              fiercest member of an ursine tribe, protective of his land and his people.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
       </div>
     </div>
-  
+  </div>
+
   <div class="container" id="slark">
     <div class="row align-items-center justify-content-center">
-        <div class="col-md-6">
-          <img src="dota3.jpg" class="w-100" class="img-thumbnail" alt="">
-        </div>
-        <div class="col-md-6">
-          <h5 class="mb-1">SLARK, the Nightcrawler</h5>
-          <p class="mb-1">Little known to the inhabitants of the dry world, 
-          Dark Reef is a sunken prison where the worst of the sea-bred are sent for crimes against their fellows. It is a razor barbed warren full of murderous slithereen, treacherous Deep Ones, sociopathic meranths. In this dim labyrinth, patrolled by eels and guarded by enormous anemones. Pitched into Dark Reef for crimes unknown, Slark spent half a lifetime without kin or kindness, trusting no one, surviving through a combination of stealth and ruthlessness, keeping his plans to himself. When the infamous Dark Reef Dozen plotted their ill-fated breakout, they kept their plans a perfect secret, murdering anyone who could have put the pieces together.Slark discovered their scheme and made a place for himself in it. Ten of the Dozen died in the escape attempt, and two were captured, hauled back to Dark Reef.
-          </p>
-        </div>
+      <div class="col-md-6">
+        <img src="dota3.jpg" class="w-100" class="img-thumbnail" alt="">
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-1">SLARK, the Nightcrawler</h5>
+        <p class="mb-1">Little known to the inhabitants of the dry world,
+          Dark Reef is a sunken prison where the worst of the sea-bred are sent for crimes against their fellows. It is
+          a razor barbed warren full of murderous slithereen, treacherous Deep Ones, sociopathic meranths. In this dim
+          labyrinth, patrolled by eels and guarded by enormous anemones. Pitched into Dark Reef for crimes unknown,
+          Slark spent half a lifetime without kin or kindness, trusting no one, surviving through a combination of
+          stealth and ruthlessness, keeping his plans to himself. When the infamous Dark Reef Dozen plotted their
+          ill-fated breakout, they kept their plans a perfect secret, murdering anyone who could have put the pieces
+          together.Slark discovered their scheme and made a place for himself in it. Ten of the Dozen died in the escape
+          attempt, and two were captured, hauled back to Dark Reef.
+        </p>
+      </div>
     </div>
-</div> 
- 
-    <section class="cards-info">
-      <h5 class="mt-5 text-center">Different Equipments of SLARK</h5>
-      <div class="container-lg">
-        <div class="row justify-content-center align-items-center px-3 mt-5">
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-                <img src="slarkskin1.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Dark Reef Escape</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="slarkskin2.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Ocean Conqueror</h5>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="slarkskin3.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Shivshell Crawler</h5>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="slark4.jpg" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Kindred of the Umizar Crawler</h5>
-               
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="slark5.jpg" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Abyssal Arms</h5>
-                
-              </div>
+  </div>
+
+  <section class="cards-info">
+    <h5 class="mt-5 text-center">Different Equipments of SLARK</h5>
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center px-3 mt-5">
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="slarkskin1.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Dark Reef Escape</h5>
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="slarkskin2.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ocean Conqueror</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="slarkskin3.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shivshell Crawler</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="slark4.jpg" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Kindred of the Umizar Crawler</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="slark5.jpg" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Abyssal Arms</h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   </div>
   <div class="container" id="zues">
     <div class="row align-items-center justify-content-center">
-        <div class="col-md-6">
-          <img src="dota4.jpg" class="w-100" alt="">
-        </div>
-        <div class="col-md-6">
-          <h5 class="mb-3">ZUES,the God of Thunder</h5>
-          <p>Lord of Heaven, father of gods, Zeus treats all the Heroes as if they are his rambunctious, rebellious children. 
-            After being caught unnumbered times in the midst of trysts with countless mortal women, his divine wife finally gave him an ultimatum: 'If you love mortals so much, go and become one. If you can prove yourself faithful, then return to me as my immortal husband. Otherwise, go and die among your creatures.' Zeus found her logic (and her magic) irrefutable, and agreed to her plan. He has been on his best behavior ever since, being somewhat fonder of immortality than he is of mortals. But to prove himself worthy of his eternal spouse, he must continue to pursue victory on the field of battle.</p>
-        </div>
+      <div class="col-md-6">
+        <img src="dota4.jpg" class="w-100" alt="">
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-3">ZUES,the God of Thunder</h5>
+        <p>Lord of Heaven, father of gods, Zeus treats all the Heroes as if they are his rambunctious, rebellious
+          children.
+          After being caught unnumbered times in the midst of trysts with countless mortal women, his divine wife
+          finally gave him an ultimatum: 'If you love mortals so much, go and become one. If you can prove yourself
+          faithful, then return to me as my immortal husband. Otherwise, go and die among your creatures.' Zeus found
+          her logic (and her magic) irrefutable, and agreed to her plan. He has been on his best behavior ever since,
+          being somewhat fonder of immortality than he is of mortals. But to prove himself worthy of his eternal spouse,
+          he must continue to pursue victory on the field of battle.</p>
+      </div>
     </div>
   </div>
   <section class="cards-info">
@@ -252,7 +286,7 @@
       <div class="row justify-content-center align-items-center px-3 mt-5">
         <div class="col-md-4 px-3 mb-5">
           <div class="card" style="width: auto;">
-              <img src="zues.webp" alt="">
+            <img src="zues.webp" alt="">
             <div class="card-body text-center">
               <h5 class="card-title">Wartorn Heavens</h5>
             </div>
@@ -263,7 +297,7 @@
             <img src="zues1.webp" alt="">
             <div class="card-body text-center">
               <h5 class="card-title">Arc of the Sovereign</h5>
-              
+
             </div>
           </div>
         </div>
@@ -272,7 +306,7 @@
             <img src="zues3.webp" alt="">
             <div class="card-body text-center">
               <h5 class="card-title">Righteous Thunderbolt</h5>
-              
+
             </div>
           </div>
         </div>
@@ -281,7 +315,7 @@
             <img src="zues4.webp" alt="">
             <div class="card-body text-center">
               <h5 class="card-title">Helm of the Thundergod</h5>
-             
+
             </div>
           </div>
         </div>
@@ -290,73 +324,86 @@
             <img src="zues2.webp" alt="">
             <div class="card-body text-center">
               <h5 class="card-title">Arc of the Sovereign</h5>
-              
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <div class="container" id="queen of pain">
-      <div class="row align-items-center justify-content-center">
-          <div class="col-md-6">
-            <img src="queen of pain.jpg" class="w-100" alt="">
-          </div>
-          <div class="col-md-6">
-            <h5 class="mb-3">QUEEN OF PAIN</h5>
-            <p>The Ecclesiast-King of Elze nursed a desire for pain--forbidden pain. In a less prominent political figure, such desires might be considered unwise, but in a monarch of his stature, to satisfy such thirsts would have threatened the virtue of the Divine Throne itself. Therefore he turned to his dungeon full of demonologists, promising freedom to whoever could summon a personal succubus of torment and bind it entirely to his service. The creature who arrived, Akasha by name, visited upon him such exquisite torments that he named her his Secret Queen, and he began to spend all his spare moments submitting to her clever torments--eventually abdicating all his responsibilities in his pursuit of the painful pleasures that only she could bring.</p>
-          </div>
+  </section>
+  <div class="container" id="queen of pain">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-6">
+        <img src="queen of pain.jpg" class="w-100" alt="">
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-3">QUEEN OF PAIN</h5>
+        <p>The Ecclesiast-King of Elze nursed a desire for pain--forbidden pain. In a less prominent political figure,
+          such desires might be considered unwise, but in a monarch of his stature, to satisfy such thirsts would have
+          threatened the virtue of the Divine Throne itself. Therefore he turned to his dungeon full of demonologists,
+          promising freedom to whoever could summon a personal succubus of torment and bind it entirely to his service.
+          The creature who arrived, Akasha by name, visited upon him such exquisite torments that he named her his
+          Secret Queen, and he began to spend all his spare moments submitting to her clever torments--eventually
+          abdicating all his responsibilities in his pursuit of the painful pleasures that only she could bring.</p>
       </div>
     </div>
-    <section class="cards-info">
-      <h5 class="mt-5 text-center">Different Equipments of QUEEN OF PAIN</h5>
-      <div class="container-lg">
-        <div class="row justify-content-center align-items-center px-3 mt-5">
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-                <img src="qop1.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Wartorn Heavens</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="qop2.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Arc of the Sovereign</h5>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="qop3.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Righteous Thunderbolt</h5>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="qop4.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Helm of the Thundergod</h5>
-               
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-3 mb-5">
-            <div class="card" style="width: auto;">
-              <img src="qop5.webp" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title">Arc of the Sovereign</h5>
-                
-              </div>
+  </div>
+  <section class="cards-info">
+    <h5 class="mt-5 text-center">Different Equipments of QUEEN OF PAIN</h5>
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center px-3 mt-5">
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="qop1.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Wartorn Heavens</h5>
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="qop2.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Arc of the Sovereign</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="qop3.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Righteous Thunderbolt</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="qop4.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Helm of the Thundergod</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-3 mb-5">
+          <div class="card" style="width: auto;">
+            <img src="qop5.webp" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Arc of the Sovereign</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <!-- social media -->
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>  
 </body>
 <script src="js/bootstrap.bundle.js"></script>
 
