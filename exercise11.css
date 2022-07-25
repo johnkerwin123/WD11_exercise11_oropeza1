@@ -1,11 +1,13 @@
-
+#bg{
+  background-image: url("snow.avif");
+  background-size: cover;
+  background-attachment: fixed;
+}
 .section{
   font-family:'Poppins', sans-serif; 
   background-image: url(snow.avif);
 }
- .card-info{
-  background-color: aqua;
-}
+
 .card-body{
   background-color: rgb(244, 162, 55);
 }
@@ -15,13 +17,15 @@
 footer{
   height: 50px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   background-color: rgb(244, 162, 55);
 }
-.social-icons{
-  display: flex;
+.social-icons i{
+  font-size: 25px;
   color: black;
+}
+.social-icons i:hover{
+  color: white;
 }
