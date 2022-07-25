@@ -7,7 +7,7 @@
   background-color: aqua;
 }
 .card-body{
-  background-color: rgb(244, 177, 91);
+  background-color: rgb(244, 162, 55);
 }
 .container{
   background-image: url(stonewall.jpg);
@@ -19,17 +19,9 @@ footer{
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: rgb(244, 177, 91);
-}
-
-.social-icons a{
-  width: 20px;
-  height: 20px;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 10px;
-  border-radius: 50%;
+  background-color: rgb(244, 162, 55);
 }
 .social-icons{
   display: flex;
+  color: black;
 }
