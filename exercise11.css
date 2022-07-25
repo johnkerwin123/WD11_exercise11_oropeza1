@@ -2,18 +2,17 @@
   background-image: url("snow.avif");
   background-size: cover;
   background-attachment: fixed;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
-.section{
-  font-family:'Poppins', sans-serif; 
-  background-image: url(snow.avif);
+.card{
+  border-radius: 10px;
 }
-
 .card-body{
   background-color: rgb(244, 162, 55);
+  border-radius: 10px;
 }
-.container{
-  background-image: url(stonewall.jpg);
-}
+
 footer{
   height: 50px;
   display: flex;
