@@ -4,3 +4,17 @@ body{
 section{
   background-image: url(wall.jpg);
 }
+footer{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.social-icons i{
+  font-size: 25px;
+  color: black;
+}
+.social-icons i:hover{
+  color: rgb(91, 233, 233);
+}
