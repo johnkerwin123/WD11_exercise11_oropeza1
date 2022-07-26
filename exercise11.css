@@ -2,7 +2,7 @@
   background-image: url("snow.avif");
   background-size: cover;
   background-attachment: fixed;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: 'Poppins', sans-serif;
 }
 .card{
@@ -12,6 +12,11 @@
   background-color: rgb(244, 162, 55);
   border-radius: 10px;
 }
+.btn{
+  color: black;
+  background-color: rgb(9, 138, 95);
+}
+
 
 footer{
   height: 50px;
