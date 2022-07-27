@@ -9,7 +9,7 @@
   border-radius: 10px;
 }
 .card-body{
-  background-color: rgb(244, 162, 55);
+  background-color: rgb(230, 162, 73);
   border-radius: 10px;
 }
 .btn{
@@ -24,7 +24,7 @@ footer{
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: rgb(244, 162, 55);
+  background-color: rgb(230, 162, 73);
 }
 .social-icons i{
   font-size: 25px;
